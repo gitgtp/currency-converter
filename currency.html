@@ -1,0 +1,67 @@
+<!DOCTYPEhtml>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=,initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="currencystyle.css">
+    
+  </head>
+
+  <body>
+    <div id="cover">
+    <div id="heading">
+      <h1>Currency Converter</h1>
+    </div>
+    <div id='main'>
+      <div class="inside">
+        <select class="text t3" id="list1">
+          <option value=291>LKR Sri Lanka Rupee</option>
+          <option value=82.403>INR Indian Rupee</option>
+          <option value=285.45>PKR Pakistani Rupee</option>
+          <option value=1>USD United States Dollar</option>
+          <option value=82.52>BTN Bhutanese Ngultrum Bhutan</option>
+          <option value=3.6729>AED UAE Dirham United Arab Emirates</option>
+          <option value=127.28>BDT Bangladeshi Taka Bangladesh</option>
+        </select>
+        <input class="text t2" id="get" oninput="calculator()" type="number">
+      </div>
+      <div class="inside">
+        <select class="text t2 t3" id="list2">
+          <option value=291>LKR Sri Lanka Rupee</option>
+          <option value=82.403>INR Indian Rupee</option>
+          <option Value=285.45>PKR Pakistani Rupee</option>
+          <option value=1>USD United States Dollar</option>
+          <option value=82.52>BTN Bhutanese Ngultrum Bhutan</option>
+          <option value=3.6729>AED UAE Dirham United Arab Emirates</option>
+          <option value=127.28>BDT Bangladeshi Taka Bangladesh</option>
+        </select>
+        <input class="text t2" id="get2" type="number">
+      </div>
+    </div>
+    
+    <div id="button-box">
+      <div id="number-box">
+        <button class="button" onclick="but1()">1</button>
+        <button class="button" onclick="but2()">2</button>
+        <button class="button" onclick="but3()">3</button>
+        <button class="button" onclick="but4()">4</button>
+        <button class="button" onclick="but5()">5</button>
+        <button class="button" onclick="but6()">6</button>
+        <button class="button" onclick="but7()">7</button>
+        <button class="button" onclick="but8()">8</button>
+        <button class="button" onclick="but9()">9</button>
+        <button class="button zero" onclick="but0()">0</button>
+        <button class="button" onclick="but11()">.</button>
+      </div>
+      <div id="ac">
+        <button class="cut" onclick="reset()">AC</button>
+        <button class="cut" onclick="backspace ()">×</button>
+      </div>
+    </div>
+    </div>
+    <script src="currency.js"></script>
+  </body>
+  </html>
